@@ -1,0 +1,13 @@
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+dependencies {
+    implementation "org.jodd:joy-boot-tomcat8:0.1.0"
+    implementation "org.jodd:jodd-joy:5.1.4"
+}
+
+mainClassName = "jodd.joy.server.example.Runner"
