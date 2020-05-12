@@ -1,2 +1,3 @@
-# jodd-joy-example
-Full example with Jodd Joy
+# Jodd Joy Starter
+
+Everything inside. Use what you need. Delete what you don't.
