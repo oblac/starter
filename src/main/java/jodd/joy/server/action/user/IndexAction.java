@@ -1,4 +1,4 @@
-package jodd.joy.server.example;
+package jodd.joy.server.action.user;
 
 import jodd.madvoc.meta.Action;
 import jodd.madvoc.meta.MadvocAction;
@@ -7,8 +7,7 @@ import jodd.madvoc.meta.MadvocAction;
 public class IndexAction {
 
 	@Action
-	public void view() {
-		System.out.println("Hello!");
+	public String view() {
+		return "ok";
 	}
-
 }

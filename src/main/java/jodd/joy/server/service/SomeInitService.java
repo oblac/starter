@@ -1,11 +1,11 @@
-package jodd.joy.server.example;
+package jodd.joy.server.service;
 
 import jodd.joy.JoyInit;
 import jodd.petite.meta.PetiteBean;
 
 @PetiteBean
-public class SomeService implements JoyInit {
-	public SomeService() {
+public class SomeInitService implements JoyInit {
+	public SomeInitService() {
 		System.out.println("SomeService created");
 	}
 
